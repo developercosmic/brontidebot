@@ -43,6 +43,8 @@ client.on("message", async message => {
     .addField("!help", "Displays this help embed")
     .addField("!kick", "Kicks a User")
     .addField("!ban", "Bans a user")
+    .addField("!addrole", "Adds a role to a user")
+     .addField("!removerole", "Removes role from a user")
     .addField("!purge", "Purge a set amount of messages")
     .addField("!warn", "Warn a user. 3 warnings results in a mute, 5 warnings results in a ban")
     .addField("!clearwarns", "Clears a user's warnings (resets to 0)")
